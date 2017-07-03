@@ -12,7 +12,7 @@
   "main": "index.js",
   "scripts": {
     "start": "elm-live Main.elm --open",
-    "start:test:watch": "concurrently 'npm run start' 'npm run test:watch'",
+    "start:test:watch": "concurrently \"npm run start\" \"npm run test:watch\"",
     "test:watch": "elm-test --watch"
   }
 }
