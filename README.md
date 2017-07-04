@@ -5,5 +5,6 @@ This example shows how to run [elm-live](https://github.com/tomekwi/elm-live) an
 Run the example with:
 
 ```bash
+npm install
 npm run start:test:watch
 ```
